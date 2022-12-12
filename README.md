@@ -5,8 +5,8 @@
 - 💻 &nbsp;
   ![Java](https://img.shields.io/badge/-Java-333333?style=flat&logo=Java&logoColor=007396)
 - Frontend 🌐 &nbsp;
-  ![Angular](https://img.shields.io/badge/-Angular-333333?style=flat&logo=angular)
-  ![Vue3](https://img.shields.io/badge/-Vue.js-333333?style=flat&logo=vuedotjs)
+  ![Angular](https://img.shields.io/badge/-Angular13-333333?style=flat&logo=angular)
+  ![Vue3](https://img.shields.io/badge/-Vue3-333333?style=flat&logo=vuedotjs)
   ![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)
   ![JQuery](https://img.shields.io/badge/jQuery-333333?style=flat&logo=jquery)
 - Backend 🌐 &nbsp;
