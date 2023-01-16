@@ -12,3 +12,4 @@ jobs:
           plugin_languages: yes
           plugin_languages_indepth: yes
           commits_authoring: Sergi Micó Ortiz, sergimicoortiz, sergimicoortiz@gmail.com
+          token: ${{ secrets.TOKEN }}
