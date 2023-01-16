@@ -1,0 +1,14 @@
+name: UpdateReadme
+on:
+  push:
+    branches:
+      - "master"
+jobs:
+  Linter_job:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          plugin_languages: yes
+          plugin_languages_indepth: yes
+          commits_authoring: Sergi Micó Ortiz, sergimicoortiz, sergimicoortiz@gmail.com
