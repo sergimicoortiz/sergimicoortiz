@@ -2,7 +2,7 @@ name: UpdateReadme
 on:
   push:
     branches:
-      - "master"
+      - "main"
 jobs:
   Linter_job:
     runs-on: ubuntu-latest
