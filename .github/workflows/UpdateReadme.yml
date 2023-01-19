@@ -1,6 +1,5 @@
 name: UpdateReadme
 on:
-  push:
   schedule:
     - cron: "0 0 * * 7"
 jobs:
