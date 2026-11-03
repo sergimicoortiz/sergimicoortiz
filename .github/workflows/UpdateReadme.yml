@@ -1,8 +1,8 @@
 name: UpdateReadme
 on:
-  # Regenerate metrics daily so the SVG doesn't go stale
+  # Regenerate metrics weekly so the SVG doesn't go stale
   schedule:
-    - cron: "0 4 * * *"
+    - cron: "0 4 * * 1"
   # Allow manual runs from the Actions tab
   workflow_dispatch:
   push:
