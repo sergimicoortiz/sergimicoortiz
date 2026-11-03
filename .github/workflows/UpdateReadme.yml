@@ -1,13 +1,20 @@
 name: UpdateReadme
 on:
+  # Regenerate metrics daily so the SVG doesn't go stale
+  schedule:
+    - cron: "0 4 * * *"
+  # Allow manual runs from the Actions tab
+  workflow_dispatch:
   push:
     branches:
       - "main"
 jobs:
-  Mectrics_job:
+  metrics_job:
     runs-on: ubuntu-latest
+    # Skip runs triggered by the action's own commit
+    if: ${{ !contains(github.event.head_commit.message, '[Skip GitHub Action]') }}
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@v3.34
         with:
           plugin_languages: yes
           plugin_languages_indepth: yes
